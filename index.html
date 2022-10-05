@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dropbox</title>
+        <title>Spotify</title>
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;500;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
         <!-- /Google Fonts -->
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,9 +18,93 @@
     <body>
         <header>HEADER</header>
         <div class="page-container flex">
-            <aside>LOGO</aside>
+            <aside class="flex flex-column">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="logo">
+                </div>
+                <div class="nav-top">
+                    <ul class="list-style-none">
+                        <li>
+                            <div class="home flex flex-align-items-center ">
+                                <img src="img/home.svg" alt="home">
+                                <div class="name">Home</div>
+                            </div>
+                        </li>
+                        <li>                    
+                            <div class="search flex flex-align-items-center ">
+                                <img src="img/search.svg" alt="search">
+                                <div class="name">Search</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="library flex flex-align-items-center ">
+                                <img src="img/libreria.svg" alt="library">
+                                <div class="name">Library</div>
+                            </div>
+                        </li>
+                    </ul>    
+                </div>
+                <div class="nav-bottom">
+                    <div class="playlist">
+                        Playlist
+                    </div>
+                    <div class="container">
+                        <ul class="list-style-none">
+                            <li>
+                                <div class="crea-playlist">
+                                    <div class="add">
+                                        +
+                                    </div>
+                                    <div class="name">Crea Playlist</div>
+                                </div>
+                            </li>
+                            <li><div class="name">Crea Playlist</div></li>
+                            <li><div class="name">Crea Playlist</div></li>
+                            <li><div class="name">Crea Playlist</div></li>
+                            <li><div class="name">Crea Playlist</div></li>
+                            <li><div class="name">Crea Playlist</div></li>
+                            <li><div class="name">Crea Playlist</div></li>
+                        </ul>
+                    </div>    
+                </div>
+            </aside>
             <main></main>
         </div>
-        <footer>FOOT</footer>
+        <div class="player">
+            <div class="flex flex-align-items-center flex-space-between">
+                <div class="col-small flex flex-space-between">
+                    <div class="cover">
+                        <img src="img/sinister.jpeg" alt="">
+                    </div>
+                    <div class="brano">
+                        <div class="album">Sinister</div>
+                        <div class="name">Nome Brano</div>
+                    </div>
+                    <div class="favourite flex">
+                        <div class="heart">
+                            <i class="fa-regular fa-heart"></i>
+                        </div> 
+                        <div class="folder">
+                            <i class="fa-regular fa-folder"></i>
+                        </div>      
+                    </div>
+                </div>
+                <div class="col-big"></div>
+                <div class="col-small flex flex-space-between flex-align-items-center">
+                    <div class="option">
+                        <i class="fa-solid fa-list"></i>
+                    </div>
+                    <div class="mirroring">
+                        <i class="fa-solid fa-desktop"></i>
+                    </div>
+                    <div class="volume">
+                        <i class="fa-solid fa-volume-high"></i>
+                    </div>
+                    <div class="volume-bar">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

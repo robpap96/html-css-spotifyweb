@@ -1,0 +1,68 @@
+/*********************
+        FOOTER
+*********************/
+
+.player {
+    background-color: #282828;
+    height: 90px;
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.col-big{
+    width: 45%;
+    padding: ;
+}
+.col-small{
+    width: 23%;
+    padding: 20px 10px;
+}
+.player .cover img{
+    width: 45px;
+    height: 45px;
+}
+.player .brano {
+    display: inline-block;
+    padding: 10px 0;
+    margin-left: -30px;
+}
+.player .brano .album {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+.player .brano .name {
+    font-size: 10px;
+    color: #696969;
+}
+.player .favourite {
+    color: #696969;
+}
+.player .favourite .heart {
+    padding-left: 15px;
+}
+.player .favourite .folder {
+    padding-left: 15px;
+}
+.player .volume-bar {
+    width: 115px;
+}
+.player .option, .mirroring, .volume {
+    color: #ffffff;
+}
+/******** MEDIA QUERY ********/
+/* DESKTOP */
+@media screen and (max-width: 1100px) {
+
+}
+/* TABLET */
+@media screen and (max-width: 700px) {
+
+}
+/* PHONE */
+@media screen and (max-width: 600px) {
+
+}
+/******** /MEDIA QUERY ********/
