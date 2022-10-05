@@ -12,6 +12,7 @@
     left: 0;
 }
 .col-big{
+    max-width: 530px;
     width: 45%;
     padding: ;
 }
@@ -51,6 +52,36 @@
 }
 .player .option, .mirroring, .volume {
     color: #ffffff;
+}
+.player .player-central {
+    width: 200px;
+    height: 30px;
+    margin: auto;
+}
+.player-central-timebar {
+    padding: 10px ;
+}
+.player-central i {
+    color: white;
+    font-size: 20px;
+}
+.player-central .play i {
+    font-size: 32px;
+}
+.player-central-time {
+    padding: 10px 0;
+}
+.player-central-time .current-time, .total-time{
+    color: white;
+    font-size: 10px;
+    font-weight: bold ;
+}
+.player-central-time .player-central-timebar hr {
+    width: 100%;
+    color: white;
+}
+.player-central-time .player-central-timebar {
+    width: 80%;
 }
 /******** MEDIA QUERY ********/
 /* DESKTOP */
