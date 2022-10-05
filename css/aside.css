@@ -1,17 +1,8 @@
-/*********************
-        FOOTER
-*********************/
-
-footer {
-    background-color: #282828;
-    height: 90px;
-    position: fixed;
-    z-index: 100;
-    bottom: 0;
-    right: 0;
-    left: 0;
+aside {
+    background-color: black;
+    width: 230px;
+    height: calc(100vh - 90px);
 }
-
 /******** MEDIA QUERY ********/
 /* DESKTOP */
 @media screen and (max-width: 1100px) {
