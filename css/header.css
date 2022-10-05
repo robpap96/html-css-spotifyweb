@@ -1,0 +1,11 @@
+/*********************
+        HEADER
+*********************/
+header{
+    position: fixed;
+    right: 0;
+    left: 300px;
+    height: 90px;
+    background-color: #080b12;
+    opacity: 0.5;
+}

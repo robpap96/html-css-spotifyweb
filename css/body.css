@@ -1,0 +1,16 @@
+/*********************
+        BODY
+*********************/
+
+body {
+    height: 100vh;
+}
+.page-container {
+    background-color: #141922;
+    height: calc(100% -90px);
+}
+aside {
+    background-color: black;
+    width: 300px;
+    height: calc(100vh - 90px);
+}

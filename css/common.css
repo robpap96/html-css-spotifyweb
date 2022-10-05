@@ -1,0 +1,16 @@
+/*********************
+        COMMON
+*********************/
+.container {
+    max-width: ;
+    margin: auto;
+}
+section {
+    margin: 3.125rem 0;
+}
+.list-style-none {
+    list-style: none;
+}
+text-center {
+    text-align: center;
+}
