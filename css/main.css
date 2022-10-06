@@ -6,13 +6,27 @@ main {
     width: calc(100% - 230px);
 }
 main .container-small {
-    max-width: 650px;
+    max-width: 700px;
     margin: auto;
 } 
 main .container-big {
     max-width: 1140px;
     margin: auto;
+    padding: 20px 0;
 } 
+#second-container .col-small {
+    margin-left: -3px;
+}
+main .subtitle {
+    color: #696969;
+    font-size: 12px;
+    padding: 10px;
+}
+.container-big h2 {
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
 .main-nav ul li {
     color: #696969;
     padding: 10px;
@@ -20,18 +34,32 @@ main .container-big {
     font-weight: bold;
 }
 .main .col-small {
-    width: calc(100% / 6 - 20px);
+    width: calc(100% / 6 );
     margin: 0 10px;
 }
-.main .cover {
+.container-big .col-small {
+    width: 17%;
+}
+.album-cover {
     width: 100%;
 }
-.main img {
-    width: 50px;
+.album-cover img {
+    width: 170px;
+    height: 170px;
     display: block;
-    
 }
-
+.cover-title {
+    text-align: center;
+}
+.album-title {
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.album-subtitle {
+    color: #696969;
+    font-size: 12px;
+}
 /******** MEDIA QUERY ********/
 /* DESKTOP */
 @media screen and (max-width: 1100px) {
