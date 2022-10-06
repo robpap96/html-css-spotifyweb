@@ -9,13 +9,28 @@ main .container-small {
     max-width: 650px;
     margin: auto;
 } 
+main .container-big {
+    max-width: 1140px;
+    margin: auto;
+} 
 .main-nav ul li {
     color: #696969;
     padding: 10px;
     font-size: 13px;
     font-weight: bold;
 }
-
+.main .col-small {
+    width: calc(100% / 6 - 20px);
+    margin: 0 10px;
+}
+.main .cover {
+    width: 100%;
+}
+.main img {
+    width: 50px;
+    display: block;
+    
+}
 
 /******** MEDIA QUERY ********/
 /* DESKTOP */
