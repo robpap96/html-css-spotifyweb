@@ -3,7 +3,7 @@ aside {
     width: 230px;
     height: calc(100vh - 90px);
     overflow-y: hidden;
-    position: sticky;
+    position: fixed;
     top: 0;
 }
 aside img {
