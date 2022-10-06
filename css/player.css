@@ -17,7 +17,6 @@
     padding: ;
 }
 .col-small{
-    flex-grow: 1;
     width: 23%;
     padding: 20px 10px;
 }

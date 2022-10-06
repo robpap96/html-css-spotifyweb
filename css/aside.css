@@ -1,8 +1,7 @@
 aside {
     background-color: black;
     width: 230px;
-    overflow-y: hidden;
-    max-height: calc(100vh - 90px);
+    height: calc(100vh - 90px);
 }
 aside img {
     display: block;
@@ -29,6 +28,11 @@ aside .name {
     min-width: 100px;
 }
 aside .container {
+    overflow-y: hidden;
+    padding: 10px 0;
+}
+aside .menu-list {
+    height: 80%;
     overflow-y: auto;
 }
 aside .nav-top .home {
@@ -42,6 +46,7 @@ aside .nav-top .library {
 }
 .nav-bottom {
     padding: 20px;
+    overflow-y: hidden;
 }
 .nav-bottom .crea-playlist {
     display: inline-block;
