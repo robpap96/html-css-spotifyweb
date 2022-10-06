@@ -2,8 +2,18 @@
         MAIN
 *********************/
 main {
-    width: calc(100% - 300px);
-    overflow-y: auto;
+    padding-top: 90px;
+    width: calc(100% - 230px);
+}
+main .container-small {
+    max-width: 650px;
+    margin: auto;
+} 
+.main-nav ul li {
+    color: #696969;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 
