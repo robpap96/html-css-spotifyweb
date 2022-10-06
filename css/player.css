@@ -17,6 +17,7 @@
     padding: ;
 }
 .col-small{
+    flex-grow: 1;
     width: 23%;
     padding: 20px 10px;
 }
@@ -27,7 +28,7 @@
 .player .brano {
     display: inline-block;
     padding: 10px 0;
-    margin-left: -30px;
+    margin-left: -20px;
 }
 .player .brano .album {
     font-size: 12px;

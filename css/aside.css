@@ -1,6 +1,7 @@
 aside {
     background-color: black;
     width: 230px;
+    overflow-y: hidden;
     max-height: calc(100vh - 90px);
 }
 aside img {
@@ -27,7 +28,9 @@ aside .name {
     font-weight: bold;
     min-width: 100px;
 }
-
+aside .container {
+    overflow-y: auto;
+}
 aside .nav-top .home {
     padding-bottom: 10px;
 }
@@ -40,6 +43,14 @@ aside .nav-top .library {
 .nav-bottom {
     padding: 20px;
 }
+.nav-bottom .crea-playlist {
+    display: inline-block;
+    background-color: transparent;
+    color: #696969;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 10px;
+}
 aside .nav-bottom .playlist {
     color: white;
     font-weight: bold;
@@ -51,7 +62,7 @@ aside .nav-bottom ul {
 aside .nav-bottom ul li{
     padding-bottom: 10px;
 }
-aside .crea-playlist {
+aside .new-playlist {
     display: inline-block;
     width: 40px;
     height: 40px;
