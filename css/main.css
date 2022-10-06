@@ -3,21 +3,26 @@
 *********************/
 main {
     padding-top: 90px;
-    width: calc(100% - 230px);
-    
+    width: 100%;
 }
 main .container-small {
-    max-width: 700px;
-    margin: auto;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: 500px;
+
 } 
 main .container-big {
     max-width: 1140px;
-    margin: auto;
+    margin-right: auto;
+    margin-left: 230px;
     padding: 20px 0;
+    padding-right: 10px;
 } 
-#second-container .col-small {
-    margin-left: -3px;
-}
+main .container-big2 {
+    margin-left: 230px;
+    max-width: 1140px;
+    margin-right: auto;
+} 
 main .subtitle {
     color: #696969;
     font-size: 12px;
@@ -39,14 +44,15 @@ main .subtitle {
     margin: 0 10px;
 }
 .container-big .col-small {
-    width: 17%;
 }
 .album-cover {
     width: 100%;
+    aspect-ratio: 1;
+
 }
 .album-cover img {
-    width: 170px;
-    height: 170px;
+    width: 100px;
+    height: 100px;
     display: block;
 }
 .cover-title {
@@ -64,8 +70,17 @@ main .subtitle {
 /******** MEDIA QUERY ********/
 /* DESKTOP */
 @media screen and (max-width: 1100px) {
+    .main .col-small {
+        flex-wrap: wrap;
+        width: calc(100% / 4) ;
+    }
+    main .container-small {
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: 300px;
+    
+    } 
 
-}
 /* TABLET */
 @media screen and (max-width: 700px) {
 
